@@ -5,7 +5,10 @@
   Abba('Draft: Action')
     .control()
     .variant('Text: Join Beta', function() {
-    	$('#action a').text("Join Beta");
+      $('#action a').text("Join Beta");
+    })
+    .variant('Text: Notify Me', function() {
+    	$('#action a').text("Notify Me");
     })
     .variant('Color: carrot', function() {
     	$('#action a').css({ 'background': '#e67e22', 'border-color': '#e67e22' });
